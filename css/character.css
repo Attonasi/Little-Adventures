@@ -1,0 +1,26 @@
+main {
+  display: inline-flex;
+  justify-content: space-around;
+  background-image:url(../img/background.png);
+  background-repeat: no-repeat;
+}
+
+/*.avatars {
+  border: 3px black solid;
+}*/
+
+#character1 {
+  margin-top: 220px;
+}
+#character2 {
+  margin-top: 125px;
+}
+#character3 {
+  margin-top: 50px;
+}
+#character4 {
+  margin-top: 125px;
+}
+#character5 {
+  margin-top: 220px;
+}
