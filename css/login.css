@@ -1,0 +1,18 @@
+.form  {
+  width: 30%;
+  height: 35%;
+  margin-top: 10%;
+  border: 10px black solid;
+  text-align: left;
+  padding: 5px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+h2  {
+  font-size: 20px;
+  padding: 2%;
+}

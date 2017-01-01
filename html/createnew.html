@@ -7,8 +7,9 @@
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous">
     </script>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/createnew.css">
 
     <title></title>
   </head>
@@ -24,8 +25,19 @@
     </header>
 
     <main>
-      <div id="arg">
-        <a href="html/login.html"><img src="https://placehold.it/900x450" alt=""></a>
+      <div class="form">
+        <h2>Create Account</h2>
+        <form class="createForm"  method="post">
+          First name:<br>
+          <input type="text" id="formName" required value=""><br>
+          Email:<br>
+          <input type="text" id="formEmail" required value=""><br>
+          Password(at least 8 characters): <br>
+          <input type="password" id="pword1" required name="" value=""><br>
+          Retype Password: <br>
+          <input type="password" id="pword2" required name="" value=""><br>
+          <button type="submit" name="button" id="createButton">Create Account</button>
+        </form>
       </div>
     </main>
 
@@ -39,7 +51,8 @@
 
     </footer>
 
-    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="../app.js"></script>
+    <script type="text/javascript" src="../js/createnew.js"></script>
 
   </body>
 </html>
