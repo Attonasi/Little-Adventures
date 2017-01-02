@@ -1,8 +1,6 @@
 main {
   display: inline-flex;
   justify-content: space-around;
-  background-image:url(../img/background.png);
-  background-repeat: no-repeat;
 }
 
 #character1 {

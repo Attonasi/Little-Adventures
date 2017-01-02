@@ -1,0 +1,8 @@
+* {
+  color: black;
+}
+
+main div div {
+  display: inline-block;
+  margin: 50px;
+}
