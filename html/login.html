@@ -25,21 +25,23 @@
     </header>
 
     <main>
-      <div class="form">
-        <h2>Login</h2>
-        <form class="loginForm" required id="form1" method="post">
-          Name:<br>
-          <input type="text" id="nameEnter" required name="firstname"><br>
-          Password:<br>
-          <input type="password" id="passwordEnter" name="" value=""><br>
-          <button type="submit" id="loginButton" name="button">Login</button>
-          <h2>OR</h2>
-        </form>
-
-        <form class="" action="index.html" method="post">
-          <button type="button" id="createButton" name="button">Create New Account</button>
-        </form>
-
+      <div class="login-page">
+        <div class="form">
+          <form class="register-form">
+            <input type="text" id="newUserName" placeholder="Name"/>
+            <input type="password" id="newPassWord1" placeholder="Password"/>
+            <input type="password" id="newPassWord2" placeholder="Retype Password"/>
+            <input type="text" id="newEmailAddress" placeholder="Email Address"/>
+            <button id="createAccountButton">Create your account!</button>
+            <p class="message">Already registered? <a href="#">Sign In!</a></p>
+          </form>
+          <form class="login-form">
+            <input type="text" id="nameEnter"placeholder="Username"/>
+            <input type="password" id="userPasswordAttempt" placeholder="Password"/>
+            <button id="loginButton">Login!</button>
+            <p class="message">Not registered? <a href="#">Create an account!</a></p>
+          </form>
+        </div>
       </div>
     </main>
 
@@ -53,7 +55,6 @@
 
     </footer>
 
-    <!-- <script type="text/javascript" src="../app.js"></script> -->
     <script type="text/javascript" src="../js/login.js"></script>
 
   </body>
